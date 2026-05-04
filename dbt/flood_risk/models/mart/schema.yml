@@ -1,0 +1,21 @@
+version: 2
+
+models:
+  - name: mart_flood_risk
+    columns:
+      - name: kelurahan_id
+        tests:
+          - unique
+          - not_null
+      - name: risk_level
+        tests:
+          - accepted_values:
+              arguments:
+                values: ['low', 'medium', 'high']
+
+  - name: mart_kelurahan_summary
+    columns:
+      - name: kelurahan_id
+        tests:
+          - unique
+          - not_null

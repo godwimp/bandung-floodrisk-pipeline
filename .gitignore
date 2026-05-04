@@ -1,0 +1,43 @@
+# Environment
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+*.egg-info/
+dist/
+build/
+
+# Data files
+data/raw/
+data/processed/
+*.csv
+*.geojson
+*.json
+*.tif
+*.tiff
+!docs/**/*.json
+
+# dbt
+dbt/flood_risk/target/
+dbt/flood_risk/logs/
+dbt/flood_risk/.user.yml
+
+# Prefect
+.prefectignore
+
+# Logs
+logs/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/

@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: public
+    database: flooddb
+    schema: public
+    tables:
+      - name: kelurahan
+      - name: rainfall_daily
+      - name: elevation_stats
+      - name: flood_events
+      - name: flood_risk_index

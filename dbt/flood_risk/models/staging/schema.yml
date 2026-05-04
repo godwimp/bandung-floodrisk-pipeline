@@ -1,0 +1,41 @@
+version: 2
+
+models:
+  - name: stg_kelurahan
+    columns:
+      - name: kelurahan_id
+        tests:
+          - unique
+          - not_null
+      - name: population
+        tests:
+          - not_null
+      - name: luas_km2
+        tests:
+          - not_null
+
+  - name: stg_elevation
+    columns:
+      - name: kelurahan_id
+        tests:
+          - unique
+          - not_null
+      - name: mean_elevation
+        tests:
+          - not_null
+
+  - name: stg_rainfall
+    columns:
+      - name: kelurahan_id
+        tests:
+          - not_null
+      - name: precipitation
+        tests:
+          - not_null
+
+  - name: stg_flood_events
+    columns:
+      - name: kelurahan_id
+        tests:
+          - unique
+          - not_null
