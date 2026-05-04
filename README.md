@@ -2,7 +2,7 @@
 
 A reproducible data engineering pipeline for mapping flood risk across 151 kelurahans (sub-districts) in Bandung, Indonesia. Built on an open-source stack, automatically refreshed daily.
 
-**Live Dashboard:** [data.godwimp.me](https://data.godwimp.me)  
+**Live Dashboard:** [data.godwimp.me](http://data.godwimp.me/public/dashboard/13b76a32-ce3f-4566-b195-e4cabad8dcdc)  
 **Pipeline UI:** [prefect.godwimp.me](https://prefect.godwimp.me)
 
 ---
